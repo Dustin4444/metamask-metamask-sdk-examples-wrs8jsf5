@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^9
     version: 9.37.0
   eslint-config-next:
-    specifier: 15.3.0
-    version: 15.3.0(eslint@9.37.0)(typescript@5.9.3)
+    specifier: 15.5.25
+    version: 15.5.25(eslint@9.37.0)(typescript@5.9.3)
   tailwindcss:
     specifier: ^4
     version: 4.1.14
@@ -937,8 +937,8 @@ packages:
     resolution: {integrity: sha512-6mDmHX24nWlHOlbwUiAOmMyY7KELimmi+ed8qWcJYjqXeC+G6JzPZ3QosOAfjNwgMIzwhXBiRiCgdh8axTTdTA==}
     dev: false
 
-  /@next/eslint-plugin-next@15.3.0:
-    resolution: {integrity: sha512-511UUcpWw5GWTyKfzW58U2F/bYJyjLE9e3SlnGK/zSXq7RqLlqFO8B9bitJjumLpj317fycC96KZ2RZsjGNfBw==}
+  /@next/eslint-plugin-next@15.5.25:
+    resolution: {integrity: sha512-dAzOqZQCAOgIq5yQpsuMBZcwxK0AtzGqHMQpxNWYLQlvf79rsP3SDwdGPNQC4ySaMSihOQXMO/VXubQ3JWW+3A==}
     dependencies:
       fast-glob: 3.3.1
     dev: true
@@ -1862,6 +1862,7 @@ packages:
   /@tailwindcss/oxide@4.1.14:
     resolution: {integrity: sha512-23yx+VUbBwCg2x5XWdB8+1lkPajzLmALEfMb51zZUBYaYVPDQvBSD/WYDqiVyBIo2BZFa3yw1Rpy3G2Jp+K0dw==}
     engines: {node: '>= 10'}
+    requiresBuild: true
     dependencies:
       detect-libc: 2.1.1
       tar: 7.5.1
@@ -4730,8 +4731,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-next@15.3.0(eslint@9.37.0)(typescript@5.9.3):
-    resolution: {integrity: sha512-+Z3M1W9MnJjX3W4vI9CHfKlEyhTWOUHvc5dB89FyRnzPsUkJlLWZOi8+1pInuVcSztSM4MwBFB0hIHf4Rbwu4g==}
+  /eslint-config-next@15.5.25(eslint@9.37.0)(typescript@5.9.3):
+    resolution: {integrity: sha512-hB1oClZzRO3vMAeMmBMch0FHNJ4irH74LvQWDEMHkJtG/Us9+SAsg1f5Pvcw9jz4tc8wSGnvbmF050BRAAIbBg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -4739,7 +4740,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 15.3.0
+      '@next/eslint-plugin-next': 15.5.25
       '@rushstack/eslint-patch': 1.13.0
       '@typescript-eslint/eslint-plugin': 8.45.0(@typescript-eslint/parser@8.45.0)(eslint@9.37.0)(typescript@5.9.3)
       '@typescript-eslint/parser': 8.45.0(eslint@9.37.0)(typescript@5.9.3)
